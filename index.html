@@ -1,33 +1,322 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>G1 MD, MS, NA</title>
-</head>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              customBeige: "#ddc7bb",
+              customTextColour: "#543E32",
+              customSubmitButton: "#2b1b12",
+              customBackground_01: "#fef7f2",
+              customHeaderColour: "#2b1b12",
+              customSubTextColour: "#4f3527",
+              customCityTextColour: "#2b1b12",
+              customBackgroundIconColour: "#FBF5F1",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
 
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
-
+  <body>
     <div>
-        <!-- Naci -->
-        <!-- 1 - 3 -->
+      <!-- Naci -->
+      <!-- 1 - 3 -->
     </div>
 
     <div>
-        <!-- Mykyta -->
-        <!-- 4 - 6 -->
+      <div class="flex justify-between bg-white p-12">
+        <img
+          class="block w-2/4 m-12 rounded-2xl"
+          src="/assets/nikita/showHouse_02.png"
+          alt="showHouse_02"
+        />
+        <div class="flex flex-col justify-between m-20">
+          <h1 class="text-4xl font-extrabold text-customHeaderColour">
+            We Help You To Find Your Dream Home
+          </h1>
+          <p class="text-lg font-bold text-customSubTextColour">
+            From cozy cottages to luxurious estates, our dedicated team guides
+            you through every step of the journey, ensuring your dream home
+            becomes a reality
+          </p>
+          <div class="grid grid-cols-3">
+            <h1 class="text-4xl font-bold text-customSubTextColour">8K+</h1>
+            <h1 class="text-4xl font-bold text-customSubTextColour">6K+</h1>
+            <h1 class="text-4xl font-bold text-customSubTextColour">2K+</h1>
+            <p class="text-lg font-semibold text-customSubTextColour">
+              Houses Available
+            </p>
+            <p class="text-lg font-semibold text-customSubTextColour">
+              Houses Sold
+            </p>
+            <p class="text-lg font-semibold text-customSubTextColour">
+              Trusted Agents
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center justify-between gap-y-12">
+        <div class="flex flex-col w-[27%] items-center gap-y-4">
+          <h1 class="text-4xl font-extrabold text-customHeaderColour">
+            Why Choose Us
+          </h1>
+          <p class="text-lg font-bold text-customSubTextColour">
+            Elevating Your Home Buying Experience with Expertise, Integrity, and
+            Unmatched Personalized Service
+          </p>
+        </div>
+        <div class="flex gap-x-8 px-16">
+          <div
+            class="flex flex-col border rounded-2xl px-4 py-6 gap-y-4 bg-customBeige size-72"
+          >
+            <img
+              class="size-20 border p-3 rounded-2xl bg-customBackgroundIconColour"
+              src="/assets/nikita/navIcon_01.png"
+              alt="navIcon_01"
+            />
+            <h2 class="text-lg font-bold text-customHeaderColour">
+              Expert Guidance
+            </h2>
+            <p class="text-base font-semibold text-customSubTextColour">
+              Benefit from our team's seasoned expertise for a smooth buying
+              experience
+            </p>
+          </div>
+          <div
+            class="flex flex-col border rounded-2xl px-4 py-6 gap-y-4 bg-customBeige size-72"
+          >
+            <img
+              class="size-20 border p-3 rounded-2xl bg-customBackgroundIconColour"
+              src="/assets/nikita/human_01.png"
+              alt="human_01"
+            />
+            <h2 class="text-lg font-bold text-customHeaderColour">
+              Personalized Service
+            </h2>
+            <p class="text-base font-semibold text-customSubTextColour">
+              Our services adapt to your unique needs, making your journey
+              stress-free
+            </p>
+          </div>
+          <div
+            class="flex flex-col border rounded-2xl px-4 py-6 gap-y-4 bg-customBeige size-72"
+          >
+            <img
+              class="size-20 border p-3 rounded-2xl bg-customBackgroundIconColour"
+              src="/assets/nikita/clipboard_01.png"
+              alt="clipboard_01"
+            />
+            <h2 class="text-lg font-bold text-customHeaderColour">
+              Transparent Process
+            </h2>
+            <p class="text-base font-semibold text-customSubTextColour">
+              Stay informed with our clear and honest approach to buying your
+              home
+            </p>
+          </div>
+          <div
+            class="flex flex-col border rounded-2xl px-4 py-6 gap-y-4 bg-customBeige size-72"
+          >
+            <img
+              class="size-20 border p-3 rounded-2xl bg-customBackgroundIconColour"
+              src="/assets/nikita/icon-handShake_01.png"
+              alt="icon-handShake_01"
+            />
+            <h2 class="text-lg font-bold text-customHeaderColour">
+              Exceptional Support
+            </h2>
+            <p class="text-base font-semibold text-customSubTextColour">
+              Providing peace of mind with our responsive and attentive customer
+              service
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center p-12">
+        <h1 class="text-4xl font-extrabold m-8 text-customHeaderColour">
+          Our Popular Residences
+        </h1>
+        <div class="flex justify-evenly px-16 w-full">
+          <div class="h-[534px]">
+            <img
+              class="size-96 rounded-t-2xl"
+              src="/assets/nikita/showHouse_03.png"
+              alt="showHouse_03"
+            />
+            <div
+              class="flex flex-col border rounded-b-2xl gap-y-2.5 p-4 bg-customBeige"
+            >
+              <div class="flex">
+                <img
+                  class="size-6 mt-auto mr-2"
+                  src="/assets/nikita/icon_navigation_02.png"
+                  alt="icon_navigation_02"
+                />
+                <h1 class="text-xl font-bold text-customHeaderColour">
+                  San Francisco, California
+                </h1>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex">
+                  <img
+                    class="size-6 mr-2 bg-white"
+                    src="/assets/nikita/icon-bed_01.png"
+                    alt="icon-bed_01"
+                  />
+                  <p class="text-lg font-semibold text-customSubTextColour">
+                    4 Rooms
+                  </p>
+                </div>
+                <div class="flex pr-20">
+                  <img
+                    class="size-6 mr-2 bg-white"
+                    src="/assets/nikita/icon-maßband_01.png"
+                    alt="icon-maßband_01"
+                  />
+                  <p class="text-lg font-semibold text-customSubTextColour">
+                    3,500 sq ft
+                  </p>
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <button
+                  class="text-lg border h-[40px] w-[98px] font-semibold rounded-lg bg-customHeaderColour text-white"
+                >
+                  Sign up
+                </button>
+                <p
+                  class="text-lg font-bold pr-4 mt-auto text-customSubTextColour"
+                >
+                  $2,500,000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="h-[534px]">
+            <img
+              class="size-96 rounded-t-2xl"
+              src="/assets/nikita/showHouse_04.png"
+              alt="showHouse_04"
+            />
+            <div
+              class="flex flex-col border rounded-b-2xl gap-y-2.5 p-4 bg-customBeige"
+            >
+              <div class="flex">
+                <img
+                  class="size-6 mt-auto mr-2"
+                  src="/assets/nikita/icon_navigation_02.png"
+                  alt="icon_navigation_02"
+                />
+                <h1 class="text-xl font-bold text-customHeaderColour">
+                  Beverly Hills, California
+                </h1>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex">
+                  <img
+                    class="size-6 mr-2 bg-white"
+                    src="/assets/nikita/icon-bed_01.png"
+                    alt="icon-bed_01"
+                  />
+                  <p class="text-lg font-semibold text-customSubTextColour">
+                    3 Rooms
+                  </p>
+                </div>
+                <div class="flex pr-20">
+                  <img
+                    class="size-6 mr-2 bg-white"
+                    src="/assets/nikita/icon-maßband_01.png"
+                    alt="icon-maßband_01"
+                  />
+                  <p class="text-lg font-semibold text-customSubTextColour">
+                    1,500 sq ft
+                  </p>
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <button
+                  class="text-lg border h-[40px] w-[98px] font-semibold rounded-lg bg-customHeaderColour text-white"
+                >
+                  Sign up
+                </button>
+                <p
+                  class="text-lg font-bold pr-4 mt-auto text-customSubTextColour"
+                >
+                  $850,000
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="h-[534px]">
+            <img
+              class="size-96 rounded-t-2xl"
+              src="/assets/nikita/showHouse_05.png"
+              alt="showHouse_05"
+            />
+            <div
+              class="flex flex-col border rounded-b-2xl gap-y-2.5 p-4 bg-customBeige"
+            >
+              <div class="flex">
+                <img
+                  class="size-6 mt-auto mr-2"
+                  src="/assets/nikita/icon_navigation_02.png"
+                  alt="icon_navigation_02"
+                />
+                <h1 class="text-xl font-bold text-customHeaderColour">
+                  Palo Alto, California
+                </h1>
+              </div>
+              <div class="flex justify-between">
+                <div class="flex">
+                  <img
+                    class="size-6 mr-2 bg-white"
+                    src="/assets/nikita/icon-bed_01.png"
+                    alt="icon-bed_01"
+                  />
+                  <p class="text-lg font-semibold text-customSubTextColour">
+                    6 Rooms
+                  </p>
+                </div>
+                <div class="flex pr-20">
+                  <img
+                    class="size-6 mr-2 bg-white"
+                    src="/assets/nikita/icon-maßband_01.png"
+                    alt="icon-maßband_01"
+                  />
+                  <p class="text-lg font-semibold text-customSubTextColour">
+                    4,000 sq ft
+                  </p>
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <button
+                  class="text-lg border h-[40px] w-[98px] font-semibold rounded-lg bg-customHeaderColour text-white"
+                >
+                  Sign up
+                </button>
+                <p
+                  class="text-lg font-bold pr-4 mt-auto text-customSubTextColour"
+                >
+                  $3,700,000
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div>
-        <!-- Marcel -->
-        <!-- 7 - 9 -->
+      <!-- Marcel -->
+      <!-- 7 - 9 -->
     </div>
-
-</body>
-
+  </body>
 </html>
