@@ -5,18 +5,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+
     <title>G1 MD, MS, NA</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        customBeige: '#ddc7bb',
+                        customTextColour: '#543E32',
+                        customBrown: '#2b1b12',
+                        customLightBrown: '#FEF7F2',
+                        customMiddleBrown: '#4F3527'
+                    },
+                },
+            },
+        };
+    </script>
 </head>
 
 <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
-
-    <div>
-        <!-- Naci -->
-        <!-- 1 - 3 -->
-    </div>
+    <section class="bg-customLightBrown">
+        <header>
+            <nav class="grid grid-cols-3 justify-items-center pl-[128px] py-[32px] text-2xl">
+                <div class="justify-self-start">
+                    <img class="" src="assets/Dwello.svg" alt="Dwello Logo">
+                </div>
+                <div>
+                    <ul class="flex gap-x-[128px] mr-[128px] font-bold">
+                        <li>Home</li>
+                        <li>Service</li>
+                        <li>Agents</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="flex gap-x-8">
+                        <li>
+                            <img src="assets/Lupe.svg" alt="" srcset="">
+                        </li>
+                        <li>
+                            <img class="" src="assets/accman.svg" alt="" srcset="">
+                        </li>
+                        <li>
+                            <button class="rounded-lg bg-customBrown text-white px-6 py-3 mt-[-10px] font-semibold">
+                                <a href="#">Sign up</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="grid grid-rows-3 justify-self-start pl-[128px] pt-[160px]">
+            <p class="font-bold w-[1000px] text-9xl colors-customBrown">
+                Find Your Dream Home
+            </p>
+            <p class="text-4xl text-customMiddleBrown mt-12 w-[700px]">
+                Explore our curated selection of exquisite properties meticulously tailored to your unique dream home
+                vision
+            </p>
+            <button class="w-48 h-16 rounded-lg bg-customBrown text-white px-6 py-3 font-semibold">
+                <a href="#">Sign up</a>
+            </button>
+        </div>
+        <div class="">
+            <div class="
+            absolute
+            top-[1024px]
+            left-[50%]
+            translate-y-[-50%]
+            translate-x-[-50%]            
+            grid 
+            grid-cols-4 
+            rounded-lg 
+            w-[1070px] 
+            h-[160px] 
+            bg-customBeige 
+            px-6 
+            py-3
+            items-center
+            z-10">
+                <input class="pl-4 border-solid rounded-lg border-2 mx-3 my-1 text-align-center h-[58px]" type="text"
+                    name="" id="" placeholder="Location">
+                <img class="absolute left-56" src="assets/location.svg" alt="" srcset="">
+                <input class="pl-4 border-solid rounded-lg border-2 mx-3 my-1 text-align-center h-[58px]" type="text"
+                    name="" id="" placeholder="Type">
+                <img src="assets/type.svg" alt="" class="absolute left-[480px]">
+                <input class="pl-4 border-solid rounded-lg border-2 mx-3 my-1 text-align-center h-[58px]" type="text"
+                    name="" id="" placeholder="Price range">
+                <img src="assets/pricerange.svg" alt="" class="absolute left-[740px]">
+                <button
+                    class="w-[160px] h-[58px] rounded-lg bg-customBrown text-white px-6 py-3 font-semibold justify-self-center">
+                    <a href="#">Sign up</a>
+                </button>
+            </div>
+            <img class="absolute left-[45%] top-[10px] w-[1100px] z-0" src="assets/demoHouse.svg" alt="demoHouse"
+                srcset="">
+        </div>
+    </section>
+    <!-- Naci -->
+    <!-- 1 - 3 -->
 
     <div>
         <!-- Mykyta -->
