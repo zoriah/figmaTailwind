@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>G1 MD, MS, NA</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    boxShadow: {
+                        customContaineShadow: "0px 4px 30px 0px #2B1B121F",
+                    },
+                    colors: {
+                        customBeige: '#ddc7bb',
+                        customTextColour: '#543E32',
+                        customSubmitButton: '#2b1b12',
+                        customBackground_01: '#fef7f2',
+                        customHeaderColour: '#2b1b12',
+                        customSubTextColour: '#4f3527',
+                        customCityTextColour: '#2b1b12',
+                        customBrown: '#2b1b12',
+                        customLightBrown: '#FEF7F2',
+                        customMiddleBrown: '#4F3527',
+                        customHavyBrown: '#695346',
+                        customBackgroundIconColour: "#FBF5F1",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <section class="bg-customLightBrown">
+        <header>
+            <nav class="grid grid-cols-3 justify-items-center pl-[128px] py-[32px] text-2xl">
+                <div class="justify-self-start">
+                    <img class="" src="assets/noa/logo_header.png" alt="Dwello Logo">
+                </div>
+                <div>
+                    <ul class="flex gap-x-[128px] mr-[128px] font-bold">
+                        <li>Home</li>
+                        <li>Service</li>
+                        <li>Agents</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="flex gap-x-8">
+                        <li>
+                            <img src="assets/noa/icon_magnifier_01.png" alt="" srcset="">
+                        </li>
+                        <li>
+                            <img class="" src="assets/noa/icon_user_01.png" alt="" srcset="">
+                        </li>
+                        <li>
+                            <button class="rounded-lg bg-customBrown text-white px-6 py-3 mt-[-10px] font-semibold">
+                                <a href="#">Sign up</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="grid grid-rows-3 justify-self-start pl-[128px] pt-[160px]">
+            <h1 class="text-customBrown font-bold text-7xl">
+                Find Your<br>Dream Home
+            </h1>
+            <p class="text-lg font-bold text-customMiddleBrown mt-12 w-[400px]">
+                Explore our curated selection of exquisite properties meticulously tailored to your unique dream home
+                vision
+            </p>
+            <button class="w-48 h-16 mt-12 rounded-lg bg-customBrown text-white font-semibold">
+                <a href="#">Sign up</a>
+            </button>
+
+            <div class="
+            relative
+            top-18          
+            grid 
+            grid-cols-4 
+            rounded-lg
+            w-[1550px] 
+            h-[160px] 
+            bg-customBeige 
+            px-6 
+            py-3
+            items-center
+            z-10">
+                <input class="placeholder:font-bold placeholder:text-customHavyBrown pl-4 border-solid rounded-lg border-2 mx-3 my-1 text-align-center
+                    h-[58px]" type="text" name="" id="" placeholder="Location">
+                <img class="absolute left-72" src="assets/noa/icon_navigation_01.png" alt="">
+                <input
+                    class="placeholder:font-bold placeholder:text-customHavyBrown pl-4 border-solid rounded-lg border-2 mx-3 my-1 text-align-center h-[58px]"
+                    type="text" name="" id="" placeholder="Type">
+                <img src="assets/noa/icon_house_01.png" alt="" class="absolute left-[610px]">
+                <input
+                    class="placeholder:font-bold placeholder:text-customHavyBrown pl-4 border-solid rounded-lg border-2 mx-3 my-1 text-align-center h-[58px]"
+                    type="text" name="" id="" placeholder="Price Range">
+                <img src="assets/noa/icon_money_01.png" alt="" class="absolute left-[940px]">
+                <button
+                    class="w-[160px] h-[58px] rounded-lg bg-customBrown text-white px-6 py-3 font-semibold justify-self-center">
+                    <a href="#">Sign up</a>
+                </button>
+            </div>
+            <img class="absolute top-2 w-[1100px] z-0" src="assets/noa/showHouse_01.png" alt="demoHouse">
+        </div>
+    </section>
+    <!-- Naci -->
+    <!-- 1 - 3 -->
+
+    <div>
+        <div class="flex justify-between bg-white p-12">
+            <img class="block w-2/4 m-12 rounded-2xl" src="assets/nikita/showHouse_02.png" alt="showHouse_02" />
+            <div class="flex flex-col justify-between m-20">
+                <h1 class="text-4xl font-extrabold text-customHeaderColour">
+                    We Help You To Find Your Dream Home
+                </h1>
+                <p class="text-lg font-bold text-customSubTextColour">
+                    From cozy cottages to luxurious estates, our dedicated team guides
+                    you through every step of the journey, ensuring your dream home
+                    becomes a reality
+                </p>
+                <div class="grid grid-cols-3">
+                    <h1 class="text-4xl font-bold text-customSubTextColour">8K+</h1>
+                    <h1 class="text-4xl font-bold text-customSubTextColour">6K+</h1>
+                    <h1 class="text-4xl font-bold text-customSubTextColour">2K+</h1>
+                    <p class="text-lg font-semibold text-customSubTextColour">
+                        Houses Available
+                    </p>
+                    <p class="text-lg font-semibold text-customSubTextColour">
+                        Houses Sold
+                    </p>
+                    <p class="text-lg font-semibold text-customSubTextColour">
+                        Trusted Agents
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center justify-between gap-y-12">
+            <div class="flex flex-col w-[629px] items-center gap-y-4 text-center">
+                <h1 class="text-4xl font-extrabold text-customHeaderColour">
+                    Why Choose Us
+                </h1>
+                <p class="text-lg font-bold text-customSubTextColour">
+                    Elevating Your Home Buying Experience with Expertise, Integrity, and
+                    Unmatched Personalized Service
+                </p>
+            </div>
+            <div class="flex gap-x-8 px-16">
+                <div
+                    class="flex flex-col border rounded-2xl px-4 py-6 gap-y-4 bg-customBeige size-72 shadow-customContaineShadow">
+                    <img class="size-20 border p-3 rounded-2xl bg-customBackgroundIconColour"
+                        src="assets/nikita/navIcon_01.png" alt="navIcon_01" />
+                    <h2 class="text-lg font-bold text-customHeaderColour">
+                        Expert Guidance
+                    </h2>
+                    <p class="text-base font-semibold text-customSubTextColour">
+                        Benefit from our team's seasoned expertise for a smooth buying
+                        experience
+                    </p>
+                </div>
+                <div
+                    class="flex flex-col border rounded-2xl px-4 py-6 gap-y-4 bg-customBeige size-72 shadow-customContaineShadow">
+                    <img class="size-20 border p-3 rounded-2xl bg-customBackgroundIconColour"
+                        src="assets/nikita/human_01.png" alt="human_01" />
+                    <h2 class="text-lg font-bold text-customHeaderColour">
+                        Personalized Service
+                    </h2>
+                    <p class="text-base font-semibold text-customSubTextColour">
+                        Our services adapt to your unique needs, making your journey
+                        stress-free
+                    </p>
+                </div>
+                <div
+                    class="flex flex-col border rounded-2xl px-4 py-6 gap-y-4 bg-customBeige size-72 shadow-customContaineShadow">
+                    <img class="size-20 border p-3 rounded-2xl bg-customBackgroundIconColour"
+                        src="assets/nikita/clipboard_01.png" alt="clipboard_01" />
+                    <h2 class="text-lg font-bold text-customHeaderColour">
+                        Transparent Process
+                    </h2>
+                    <p class="text-base font-semibold text-customSubTextColour">
+                        Stay informed with our clear and honest approach to buying your
+                        home
+                    </p>
+                </div>
+                <div class="flex flex-col border rounded-2xl px-4 py-6 gap-y-4 bg-customBeige size-72">
+                    <img class="size-20 border p-3 rounded-2xl bg-customBackgroundIconColour"
+                        src="assets/nikita/icon-handShake_01.png" alt="icon-handShake_01" />
+                    <h2 class="text-lg font-bold text-customHeaderColour">
+                        Exceptional Support
+                    </h2>
+                    <p class="text-base font-semibold text-customSubTextColour">
+                        Providing peace of mind with our responsive and attentive customer
+                        service
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center p-12">
+            <h1 class="text-4xl font-extrabold m-8 text-customHeaderColour">
+                Our Popular Residences
+            </h1>
+            <div class="flex justify-evenly px-16 w-full">
+                <div class="h-[534px] shadow-customContaineShadow rounded-2xl">
+                    <img class="size-96 rounded-t-2xl" src="assets/nikita/showHouse_03.png" alt="showHouse_03" />
+                    <div class="flex flex-col border rounded-b-2xl gap-y-2.5 p-4 bg-customBeige">
+                        <div class="flex">
+                            <img class="size-6 mt-auto mr-2" src="assets/nikita/icon_navigation_02.png"
+                                alt="icon_navigation_02" />
+                            <h1 class="text-xl font-bold text-customHeaderColour">
+                                San Francisco, California
+                            </h1>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="flex">
+                                <img class="size-6 mr-2 bg-white" src="assets/nikita/icon-bed_01.png"
+                                    alt="icon-bed_01" />
+                                <p class="text-lg font-semibold text-customSubTextColour">
+                                    4 Rooms
+                                </p>
+                            </div>
+                            <div class="flex pr-20">
+                                <img class="size-6 mr-2 bg-white" src="assets/nikita/icon-maßband_01.png"
+                                    alt="icon-maßband_01" />
+                                <p class="text-lg font-semibold text-customSubTextColour">
+                                    3,500 sq ft
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between">
+                            <button
+                                class="text-lg border h-[40px] w-[98px] font-semibold rounded-lg bg-customHeaderColour text-white">
+                                Sign up
+                            </button>
+                            <p class="text-lg font-bold pr-4 mt-auto text-customSubTextColour">
+                                $2,500,000
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[534px] shadow-customContaineShadow rounded-2xl">
+                    <img class="size-96 rounded-t-2xl" src="assets/nikita/showHouse_04.png" alt="showHouse_04" />
+                    <div class="flex flex-col border rounded-b-2xl gap-y-2.5 p-4 bg-customBeige">
+                        <div class="flex">
+                            <img class="size-6 mt-auto mr-2" src="assets/nikita/icon_navigation_02.png"
+                                alt="icon_navigation_02" />
+                            <h1 class="text-xl font-bold text-customHeaderColour">
+                                Beverly Hills, California
+                            </h1>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="flex">
+                                <img class="size-6 mr-2 bg-white" src="assets/nikita/icon-bed_01.png"
+                                    alt="icon-bed_01" />
+                                <p class="text-lg font-semibold text-customSubTextColour">
+                                    3 Rooms
+                                </p>
+                            </div>
+                            <div class="flex pr-20">
+                                <img class="size-6 mr-2 bg-white" src="assets/nikita/icon-maßband_01.png"
+                                    alt="icon-maßband_01" />
+                                <p class="text-lg font-semibold text-customSubTextColour">
+                                    1,500 sq ft
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between">
+                            <button
+                                class="text-lg border h-[40px] w-[98px] font-semibold rounded-lg bg-customHeaderColour text-white">
+                                Sign up
+                            </button>
+                            <p class="text-lg font-bold pr-4 mt-auto text-customSubTextColour">
+                                $850,000
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[534px] shadow-customContaineShadow rounded-2xl">
+                    <img class="size-96 rounded-t-2xl" src="assets/nikita/showHouse_05.png" alt="showHouse_05" />
+                    <div class="flex flex-col border rounded-b-2xl gap-y-2.5 p-4 bg-customBeige">
+                        <div class="flex">
+                            <img class="size-6 mt-auto mr-2" src="assets/nikita/icon_navigation_02.png"
+                                alt="icon_navigation_02" />
+                            <h1 class="text-xl font-bold text-customHeaderColour">
+                                Palo Alto, California
+                            </h1>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="flex">
+                                <img class="size-6 mr-2 bg-white" src="assets/nikita/icon-bed_01.png"
+                                    alt="icon-bed_01" />
+                                <p class="text-lg font-semibold text-customSubTextColour">
+                                    6 Rooms
+                                </p>
+                            </div>
+                            <div class="flex pr-20">
+                                <img class="size-6 mr-2 bg-white" src="assets/nikita/icon-maßband_01.png"
+                                    alt="icon-maßband_01" />
+                                <p class="text-lg font-semibold text-customSubTextColour">
+                                    4,000 sq ft
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between">
+                            <button
+                                class="text-lg border h-[40px] w-[98px] font-semibold rounded-lg bg-customHeaderColour text-white">
+                                Sign up
+                            </button>
+                            <p class="text-lg font-bold pr-4 mt-auto text-customSubTextColour">
+                                $3,700,000
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <!-- Marcel -->
+        <!-- 7 - 9 -->
+        <div class="bg-customBackground_01 py-16">
+
+            <h2 class="text-center text-customHeaderColour text-3xl font-bold mb-12">What People Say<br>About Dwello
+            </h2>
+
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
+
+                <!-- Testimonial 1 -->
+                <div class="bg-customBeige shadow-lg rounded-lg overflow-hidden">
+                    <img src="./assets/marcel/showRoom_01.png" alt="Room Image" class="w-full h-40 object-cover">
+
+                    <div class="p-6">
+
+                        <div class="flex items-center justify-between mb-2">
+
+                            <!-- Avatar und Name -->
+                            <div class="flex items-center">
+
+                                <img src="./assets/marcel/sarah_nguyen.png" alt="User Avatar"
+                                    class="w-10 h-10 rounded-full">
+                                <div class="ml-4">
+                                    <h4 class="font-bold text-lg text-customHeaderColour">Sarah Nguyen</h4>
+                                    <p class="text-sm font-medium text-customCityTextColour">San Francisco</p>
+                                </div>
+
+                            </div>
+
+                            <!-- Stern und Bewertung -->
+                            <div class="flex items-center justify-center bg-white text-sm rounded-md h-6 w-12">
+                                <span class="text-yellow-500 mr-1">⭐</span>
+                                <span class="text-customHeaderColour font-semibold">5.0</span>
+                            </div>
+
+                        </div>
+
+                        <p class="text-sm font-medium text-customSubTextColour mb-4">
+                            Dwello truly cares about their clients. They listened to my needs and helped me find the
+                            perfect home in the Bay Area. Their professionalism is unmatched.
+                        </p>
+
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-customBeige shadow-lg rounded-lg overflow-hidden">
+                    <img src="./assets/marcel/showRoom_02.png" alt="Room Image" class="w-full h-40 object-cover">
+
+                    <div class="p-6">
+
+                        <div class="flex items-center justify-between mb-2">
+
+                            <!-- Avatar und Name -->
+                            <div class="flex items-center">
+
+                                <img src="./assets/marcel/michael_rodriguez.png" alt="User Avatar"
+                                    class="w-10 h-10 rounded-full">
+                                <div class="ml-4">
+                                    <h4 class="font-bold text-lg text-customHeaderColour">Michael Rodriguez</h4>
+                                    <p class="text-sm font-medium text-customCityTextColour">San Diego</p>
+                                </div>
+
+                            </div>
+
+                            <!-- Stern und Bewertung -->
+                            <div class="flex items-center justify-center bg-white text-sm rounded-md h-6 w-12">
+                                <span class="text-yellow-500 mr-1">⭐</span>
+                                <span class="text-customHeaderColour font-semibold">4.5</span>
+                            </div>
+
+                        </div>
+
+                        <p class="text-sm font-medium text-customSubTextColour mb-4">
+                            I had a fantastic experience working with Dwello. Their expertise exceeded my expectations.
+                            Highly recommended!
+                        </p>
+
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-customBeige shadow-lg rounded-lg overflow-hidden">
+                    <img src="./assets/marcel/showRoom_03.png" alt="Room Image" class="w-full h-40 object-cover">
+
+                    <div class="p-6">
+
+                        <div class="flex items-center justify-between mb-2">
+
+                            <!-- Avatar und Name -->
+                            <div class="flex items-center">
+
+                                <img src="./assets/marcel/emily_johnson.png" alt="User Avatar"
+                                    class="w-10 h-10 rounded-full">
+                                <div class="ml-4">
+                                    <h4 class="font-bold text-lg text-customHeaderColour">Emily Johnson</h4>
+                                    <p class="text-sm font-medium text-customCityTextColour">Los Angeles</p>
+                                </div>
+
+                            </div>
+
+                            <!-- Stern und Bewertung -->
+                            <div class="flex items-center justify-center bg-white text-sm rounded-md h-6 w-12">
+                                <span class="text-yellow-500 mr-1">⭐</span>
+                                <span class="text-customHeaderColour font-semibold">5.0</span>
+                            </div>
+
+                        </div>
+
+                        <p class="text-sm font-medium text-customSubTextColour mb-4">
+                            Dwello made my dream of owning a home a reality! Their team provided exceptional support
+                            through every step of the process.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="flex justify-center items-center mt-8 space-x-4">
+
+                <button
+                    class="w-10 h-10 flex items-center justify-center bg-customSubmitButton rounded-full text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+
+                <button
+                    class="w-10 h-10 flex items-center justify-center bg-customSubmitButton rounded-full text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <div class="bg-neutral-50 text-center py-12">
+
+        <!-- Help Section -->
+        <h2 class="text-2xl text-customHeaderColour font-bold mb-4">Do You Have Any Questions?<br />Get Help From Us
+        </h2>
+
+        <div class="flex justify-center items-center space-x-4 mb-6">
+
+            <!-- Chat live with our support team -->
+            <button class="flex items-center px-6 py-3 bg-white shadow-md rounded-md text-customTextColour">
+                <img src="./assets/marcel/iconA_01.png" alt="Chat Icon" class="h-6 w-6 mr-2">
+                Chat live with our support team
+            </button>
+
+            <!-- Browse our FAQ -->
+            <button class="flex items-center px-6 py-3 bg-white shadow-md rounded-md text-customTextColour">
+                <img src="./assets/marcel/iconA_01.png" alt="FAQ Icon" class="h-6 w-6 mr-2">
+                Browse our FAQ
+            </button>
+
+        </div>
+
+        <div class="flex justify-center items-center space-x-4">
+
+            <div class="flex items-center border bg-customBeige border-neutral-300 rounded-md px-4 py-2 w-72">
+
+                <!-- Icon im Input-Feld -->
+                <img src="./assets/marcel/iconA_02.png" alt="Email Icon" class="h-5 w-5 mr-3">
+                <input type="email" placeholder="Enter your email address..."
+                    class="w-full bg-transparent placeholder:text-customSubTextColour placeholder:font-medium placeholder-customBrown focus:outline-none" />
+
+            </div>
+
+            <!-- Submit Button -->
+            <button class="px-6 py-2 bg-customSubmitButton text-white rounded-md">Submit</button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-customBeige py-8 text-customTextColour">
+
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-6">
+
+            <!-- Logo und Text -->
+            <div class="space-y-2">
+
+                <img src="./assets/marcel/dwello-logo-footer.svg" alt="Dwello Logo" class="h-10">
+                <p class="text-sm font-bold leading-5">
+                    Bringing you closer to<br>your dream home, one<br>click at a time.
+                </p>
+
+            </div>
+
+            <!-- About -->
+            <div>
+
+                <h3 class="text-customHeaderColour text-lg font-bold mb-4">About</h3>
+                <ul class="space-y-2 text-sm font-bold">
+                    <li>Our Story</li>
+                    <li>Careers</li>
+                    <li>Our Team</li>
+                    <li>Resources</li>
+                </ul>
+
+            </div>
+
+            <!-- Support -->
+            <div>
+
+                <h3 class="text-customHeaderColour text-lg font-bold mb-4">Support</h3>
+                <ul class="space-y-2 text-sm font-bold">
+                    <li>FAQ</li>
+                    <li>Contact Us</li>
+                    <li>Help Center</li>
+                    <li>Terms of Service</li>
+                </ul>
+
+            </div>
+
+            <!-- Find Us -->
+            <div>
+
+                <h3 class="text-customHeaderColour text-lg font-bold mb-4">Find Us</h3>
+                <ul class="space-y-2 text-sm font-bold">
+                    <li>Events</li>
+                    <li>Locations</li>
+                    <li>Newsletter</li>
+                </ul>
+
+            </div>
+
+            <!-- Our Social -->
+            <div>
+
+                <h3 class="text-customHeaderColour text-lg font-bold mb-4">Our Social</h3>
+
+                <ul class="space-y-2">
+                    <li class="flex items-center space-x-2">
+                        <img src="./assets/marcel/icon_insta_01.png" alt="Instagram Icon" class="h-5 w-5">
+                        <span class="text-sm font-bold">Instagram</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <img src="./assets/marcel/icon_fb_01.png" alt="Facebook Icon" class="h-5 w-5">
+                        <span class="text-sm font-bold">Facebook</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <img src="./assets/marcel/icon_twitter_01.png" alt="Twitter Icon" class="h-5 w-5">
+                        <span class="text-sm font-bold">Twitter (X)</span>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
